@@ -7,7 +7,9 @@ export default {
   theme: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    'flowbite/plugin'
+  ],
   safelist: [
     "bg-green-600",
     "bg-red-600",

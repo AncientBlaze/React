@@ -39,21 +39,21 @@ function Foreground() {
     {
         desc: "This file is corrupted",
         filesize: "0.9mb",
-        close: true,
+        close: false,
         tag: {
-            isOpen: false,
-            tagTitle: "Download Now",
-            tagColor: "green"
+            isOpen: true,
+            tagTitle: "Click Me?",
+            tagColor: "amber"
         }
     }
     ];
     return (
         <div ref={ref} className='fixed top-0 left-0 z-[3] w-full h-full flex gap-5 flex-wrap p-5'>
-            {data.map((item, index) =>
+            {data.map((item, _index) =>
                 (<Card data={item} reference = {ref} />)
             )}
         </div>
     )
 }
 
-export default Foreground ;
+export default Foreground;
