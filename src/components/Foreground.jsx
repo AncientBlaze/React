@@ -1,5 +1,3 @@
-/* eslint-disable no-unused-vars */
-/* eslint-disable react/jsx-key */
 import { CiSquarePlus } from "react-icons/ci";
 import { useRef, useState } from "react";
 import Card from "./Card";
